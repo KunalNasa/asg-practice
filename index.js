@@ -4,7 +4,7 @@ const app = express();
   console.log(`Worker ${process.pid} started`);
 
   app.get("/", (req, res) => {
-    res.status(200).send("Hello World!");
+    res.status(200).send("Hello World 123456!");
   });
   app.get("/pid", (req, res) => {
     res.status(200).send("Hello World!"+ process.pid);
